@@ -12,13 +12,15 @@ body {
     padding: 0 10px;  
     font-weight: bold;
     color: #0e6c59;
+    font-size: 14px;
 }
 .nav-item {
-    padding: 10px 0px;
+    padding: 11px 0px;
  
 }
 .nav-item:hover {
     background-color: #dcdcdc;
+    transition: all .5s;
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgb(14 108 89);
