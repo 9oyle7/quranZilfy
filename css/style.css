@@ -253,10 +253,7 @@ body {
 .section-news .box .news-heading {
     font-weight: bold;
     margin-bottom: 6px;
-    font-size: 14px;
-    line-height: 1.8;
-    height: 50px;
-    color: #00796B;
+    color: #212529;
     margin-top: 10px;
     margin-bottom: 10px;
     overflow: hidden;
@@ -275,6 +272,26 @@ body {
     min-height: 88px;
     max-height: 88px;
     overflow: hidden;
+}
+.more-news a {
+    background-color: #00796B;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FFF;
+    margin-top: 40px;
+    border-radius: 4px ;
+}
+ .button-fill {
+    background: linear-gradient(to left, #3c3c3c 50%, #00796B 50%) no-repeat scroll left bottom/210% 100% ;
+}
+ .button-fill:hover {
+    background-position: right bottom;
+    text-decoration: none;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 .section-news .more-news a {
     background-color: #00796B;
