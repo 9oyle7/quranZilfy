@@ -313,7 +313,10 @@ body {
     -ms-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-
+.section-news i {
+        color: #00796b;
+        font-size: 35px;
+}
 /* ============  
 
 
@@ -465,7 +468,7 @@ background-color: #e8e8e8;
 }
 
 .section-links {
-    background-color: #fff;
+    background-color: #e8e8e8;
 }
 .section-links .but-link a {
     background-color: #00796B;
